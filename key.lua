@@ -4,7 +4,7 @@ local Lighting = game:GetService("Lighting")
 local LocalPlayer = Players.LocalPlayer or Players.PlayerAdded:Wait()
 
 -- CẤU HÌNH KEY
-local CORRECT_KEY = "VEROXHUB_082737636"
+local CORRECT_KEY = "chanbomàydi"
 
 -- PARENT AN TOÀN
 local function GetSafeParent()
