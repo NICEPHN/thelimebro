@@ -3,8 +3,8 @@ local CoreGui = game:GetService("CoreGui")
 local Lighting = game:GetService("Lighting")
 local LocalPlayer = Players.LocalPlayer or Players.PlayerAdded:Wait()
 
--- CẤU HÌNH KEY
-local CORRECT_KEY = "chanbomàydi"
+-- CẤU HÌNH KEY MỚI
+local CORRECT_KEY = "VEROXHUB_KEY128634"
 
 -- PARENT AN TOÀN
 local function GetSafeParent()
@@ -47,7 +47,7 @@ ScreenGui.Parent = ParentGui
 ----------------------------------------------------
 local KeyFrame = Instance.new("Frame")
 KeyFrame.Name = "KeyFrame"
-KeyFrame.Size = UDim2.new(0, 360, 0, 260) -- Tăng chiều cao để chứa thêm phần chú thích
+KeyFrame.Size = UDim2.new(0, 360, 0, 260)
 KeyFrame.Position = UDim2.new(0.5, -180, 0.5, -130)
 KeyFrame.BackgroundColor3 = Theme.Background
 KeyFrame.BorderSizePixel = 0
@@ -156,7 +156,7 @@ KeyStatus.Font = Enum.Font.GothamMedium
 KeyStatus.ZIndex = 2
 KeyStatus.Parent = KeyFrame
 
--- CHÚ THÍCH THỜI HẠN KEY (ĐÃ THÊM MỚI)
+-- CHÚ THÍCH THỜI HẠN KEY
 local KeyNote = Instance.new("TextLabel")
 KeyNote.Size = UDim2.new(1, -40, 0, 80)
 KeyNote.Position = UDim2.new(0, 20, 0, 170)
@@ -592,3 +592,4 @@ BtnFixLag.MouseButton1Click:Connect(function()
     task.wait(2)
     BtnFixLag.Text = "⚡ FIX LAG (XÓA ĐỒ HỌA + SKIN)"
 end)
+
