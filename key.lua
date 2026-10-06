@@ -1,10 +1,10 @@
-local Players = game:GetService("Players")
+1local Players = game:GetService("Players")
 local CoreGui = game:GetService("CoreGui")
 local Lighting = game:GetService("Lighting")
 local LocalPlayer = Players.LocalPlayer or Players.PlayerAdded:Wait()
 
 -- CẤU HÌNH KEY MỚI
-local CORRECT_KEY = "VEROXHUB_KEY128634"
+local CORRECT_KEY = "hentai"
 
 -- PARENT AN TOÀN
 local function GetSafeParent()
